@@ -1,11 +1,11 @@
 import { Router } from "express";
 import { ensureAuthenticateUser } from "../middlewares/ensureAuthenticateUser";
-import { CreateVideoController } from "../modules/Videos/create_videos/CreateVideosController";
-import { DeleteVideoController } from "../modules/Videos/delete_video/DeleteVideoController";
-import { ReadAllVideosController } from "../modules/Videos/read_videos/ReadAllVideosController";
-import { ReadVideoByIDAreaController } from "../Modules/Videos/read_videos/byareavideo/ReadVideoByAreaController";
-import { ReadVideoByIDController } from "../Modules/Videos/read_videos/ReadVideoByIDController";
-import { UpdateVideoController } from "../modules/Videos/update_videos/UpdateVideoController";
+import { CreateVideoController } from "../modules/videos/create_videos/CreateVideosController";
+import { DeleteVideoController } from "../modules/videos/delete_video/DeleteVideoController";
+import { ReadAllVideosController } from "../modules/videos/read_videos/ReadAllVideosController";
+import { ReadVideoByIDAreaController } from "../modules/videos/read_videos/byareavideo/ReadVideoByAreaController";
+import { ReadVideoByIDController } from "../modules/videos/read_videos/ReadVideoByIDController";
+import { UpdateVideoController } from "../modules/videos/update_videos/UpdateVideoController";
 
 const videoRoute = Router();
 

@@ -1,11 +1,11 @@
 import { Router } from "express";
 import { ensureAuthenticateUser } from "../middlewares/ensureAuthenticateUser";
-import { CreateAreaVideoController } from "../Modules/Areas/area_video/CreateAreaVideo/CreateAreaVideoController";
-import { DeleteAreaVideoByIDController } from "../Modules/Areas/area_video/DeleteAreaVideo/DeleteAreaVideoController";
-import { DeleteAreaOnlyVideo } from "../Modules/Areas/area_video/DeleteAreaVideo/DeleteOnlyVideo";
-import { DeleteAreaVideoOnlyController } from "../Modules/Areas/area_video/DeleteAreaVideo/DeleteOnlyVideoController";
-import { ReadAreaVideoController } from "../Modules/Areas/area_video/ReadAreaVideo/ReadAreaVideoController";
-import { UpdateAreaVideoController } from "../Modules/Areas/area_video/UpdateAreaVideo/UpdateAreaVideoController";
+import { CreateAreaVideoController } from "../modules/areas/area_video/create-area-video/CreateAreaVideoController";
+import { DeleteAreaVideoByIDController } from "../modules/areas/area_video/delete-area-video/DeleteAreaVideoController";
+import { DeleteAreaOnlyVideo } from "../modules/areas/area_video/delete-area-video/DeleteOnlyVideo";
+import { DeleteAreaVideoOnlyController } from "../modules/areas/area_video/delete-area-video/DeleteOnlyVideoController";
+import { ReadAreaVideoController } from "../modules/areas/area_video/read-area-video/ReadAreaVideoController";
+import { UpdateAreaVideoController } from "../modules/areas/area_video/update-area-video/UpdateAreaVideoController";
 
 const areaVideoRoutes = Router();
 

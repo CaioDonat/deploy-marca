@@ -2,6 +2,14 @@
   "compilerOptions": {
     "sourceMap": true,
     "outDir": "build",
+    "baseUrl": "./src",
+    "paths": {
+      "@modules/*": ["modules/*"],
+      "@config/*": ["config/*"],
+      "@shared/*": ["shared/*"],
+      "@errors/*": ["errors/*"],
+      "@utils/*": ["utils/*"]
+    },
     "strict": true,
     "lib": ["esnext"],
     "esModuleInterop": true

@@ -1,11 +1,11 @@
 import { Router } from "express";
 import { ensureAuthenticateUser } from "../middlewares/ensureAuthenticateUser";
-import { CreateUserController } from "../modules/Users/CreateUser/CreateUserController";
-import { DeleteUserByIDController } from "../modules/Users/DeleteUser/DeleteUserByIDController";
-import { ReadUsersByIdController } from "../modules/Users/ReadUsers/ByID/ReadUsersByIDController";
-import { ReadAllUsers } from "../modules/Users/ReadUsers/ReadAllUsers";
-import { ReadAllUsersController } from "../modules/Users/ReadUsers/ReadAllUsersController";
-import { UpdateUserController } from "../modules/Users/UpdateUser/UpdateUserController";
+import { CreateUserController } from "../modules/users/create_user/CreateUserController";
+import { DeleteUserByIDController } from "../modules/users/delete_user/DeleteUserByIDController";
+import { ReadUsersByIdController } from "../modules/users/read_user/ByID/ReadUsersByIDController";
+import { ReadAllUsers } from "../modules/users/read_user/ReadAllUsers";
+import { ReadAllUsersController } from "../modules/users/read_user/ReadAllUsersController";
+import { UpdateUserController } from "../modules/users/update_user/UpdateUserController";
 import { AuthenticateUserController } from "../services/AuthenticateUserController";
 
 
